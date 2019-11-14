@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/vagrant/web/point/point/app/Exports/PinPoint</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../_css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../../_css/style.css" rel="stylesheet" type="text/css">
+  <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../../index.html">/home/vagrant/web/point/point/app</a></li>
+         <li class="breadcrumb-item"><a href="../index.html">Exports</a></li>
+         <li class="breadcrumb-item"><a href="index.html">PinPoint</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ChartInterestReasonExport.php.html#21">App\Exports\PinPoint\ChartInterestReasonExport</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartNotInterestReasonExport.php.html#21">App\Exports\PinPoint\ChartNotInterestReasonExport</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartSimilarProductExport.php.html#21">App\Exports\PinPoint\ChartSimilarProductExport</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InterestReasonSheet.php.html#16">App\Exports\PinPoint\InterestReasonSheet</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ItemSoldSheet.php.html#16">App\Exports\PinPoint\ItemSoldSheet</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotInterestReasonSheet.php.html#16">App\Exports\PinPoint\NotInterestReasonSheet</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#20">App\Exports\PinPoint\Performance\DailySheet</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/PerformanceExport.php.html#8">App\Exports\PinPoint\Performance\PerformanceExport</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#21">App\Exports\PinPoint\Performance\WeeklySheet</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SalesVisitationFormExport.php.html#7">App\Exports\PinPoint\SalesVisitationFormExport</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SalesVisitationFormSheet.php.html#15">App\Exports\PinPoint\SalesVisitationFormSheet</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SimilarProductSheet.php.html#16">App\Exports\PinPoint\SimilarProductSheet</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ChartInterestReasonExport.php.html#21">App\Exports\PinPoint\ChartInterestReasonExport</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="ChartNotInterestReasonExport.php.html#21">App\Exports\PinPoint\ChartNotInterestReasonExport</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="ChartSimilarProductExport.php.html#21">App\Exports\PinPoint\ChartSimilarProductExport</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#20">App\Exports\PinPoint\Performance\DailySheet</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#21">App\Exports\PinPoint\Performance\WeeklySheet</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="ItemSoldSheet.php.html#16">App\Exports\PinPoint\ItemSoldSheet</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Performance/PerformanceExport.php.html#8">App\Exports\PinPoint\Performance\PerformanceExport</a></td><td class="text-right">56</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ChartInterestReasonExport.php.html#23"><abbr title="App\Exports\PinPoint\ChartInterestReasonExport::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#207"><abbr title="App\Exports\PinPoint\Performance\DailySheet::columnFormats">columnFormats</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#67"><abbr title="App\Exports\PinPoint\Performance\WeeklySheet::queryCall">queryCall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#47"><abbr title="App\Exports\PinPoint\Performance\WeeklySheet::queryTarget">queryTarget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#42"><abbr title="App\Exports\PinPoint\Performance\WeeklySheet::title">title</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#31"><abbr title="App\Exports\PinPoint\Performance\WeeklySheet::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/PerformanceExport.php.html#25"><abbr title="App\Exports\PinPoint\Performance\PerformanceExport::sheets">sheets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/PerformanceExport.php.html#16"><abbr title="App\Exports\PinPoint\Performance\PerformanceExport::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#182"><abbr title="App\Exports\PinPoint\Performance\DailySheet::registerEvents">registerEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#95"><abbr title="App\Exports\PinPoint\Performance\WeeklySheet::queryValue">queryValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#121"><abbr title="App\Exports\PinPoint\Performance\DailySheet::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#102"><abbr title="App\Exports\PinPoint\Performance\DailySheet::queryDetails">queryDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#92"><abbr title="App\Exports\PinPoint\Performance\DailySheet::queryValue">queryValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#73"><abbr title="App\Exports\PinPoint\Performance\DailySheet::queryEffectiveCall">queryEffectiveCall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#64"><abbr title="App\Exports\PinPoint\Performance\DailySheet::queryCall">queryCall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#44"><abbr title="App\Exports\PinPoint\Performance\DailySheet::queryTarget">queryTarget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#39"><abbr title="App\Exports\PinPoint\Performance\DailySheet::title">title</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#76"><abbr title="App\Exports\PinPoint\Performance\WeeklySheet::queryEffectiveCall">queryEffectiveCall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#105"><abbr title="App\Exports\PinPoint\Performance\WeeklySheet::queryDetails">queryDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotInterestReasonSheet.php.html#83"><abbr title="App\Exports\PinPoint\NotInterestReasonSheet::registerEvents">registerEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SalesVisitationFormSheet.php.html#84"><abbr title="App\Exports\PinPoint\SalesVisitationFormSheet::title">title</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SimilarProductSheet.php.html#75"><abbr title="App\Exports\PinPoint\SimilarProductSheet::title">title</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SimilarProductSheet.php.html#61"><abbr title="App\Exports\PinPoint\SimilarProductSheet::map">map</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SimilarProductSheet.php.html#46"><abbr title="App\Exports\PinPoint\SimilarProductSheet::headings">headings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SimilarProductSheet.php.html#33"><abbr title="App\Exports\PinPoint\SimilarProductSheet::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SimilarProductSheet.php.html#24"><abbr title="App\Exports\PinPoint\SimilarProductSheet::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SalesVisitationFormSheet.php.html#92"><abbr title="App\Exports\PinPoint\SalesVisitationFormSheet::registerEvents">registerEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SalesVisitationFormSheet.php.html#64"><abbr title="App\Exports\PinPoint\SalesVisitationFormSheet::map">map</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#124"><abbr title="App\Exports\PinPoint\Performance\WeeklySheet::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SalesVisitationFormSheet.php.html#43"><abbr title="App\Exports\PinPoint\SalesVisitationFormSheet::headings">headings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SalesVisitationFormSheet.php.html#32"><abbr title="App\Exports\PinPoint\SalesVisitationFormSheet::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SalesVisitationFormSheet.php.html#23"><abbr title="App\Exports\PinPoint\SalesVisitationFormSheet::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SalesVisitationFormExport.php.html#24"><abbr title="App\Exports\PinPoint\SalesVisitationFormExport::sheets">sheets</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SalesVisitationFormExport.php.html#15"><abbr title="App\Exports\PinPoint\SalesVisitationFormExport::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#204"><abbr title="App\Exports\PinPoint\Performance\WeeklySheet::registerEvents">registerEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#186"><abbr title="App\Exports\PinPoint\Performance\WeeklySheet::columnFormats">columnFormats</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#29"><abbr title="App\Exports\PinPoint\Performance\DailySheet::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotInterestReasonSheet.php.html#75"><abbr title="App\Exports\PinPoint\NotInterestReasonSheet::title">title</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartInterestReasonExport.php.html#29"><abbr title="App\Exports\PinPoint\ChartInterestReasonExport::title">title</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartNotInterestReasonExport.php.html#76"><abbr title="App\Exports\PinPoint\ChartNotInterestReasonExport::cellColumns">cellColumns</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartSimilarProductExport.php.html#34"><abbr title="App\Exports\PinPoint\ChartSimilarProductExport::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartSimilarProductExport.php.html#29"><abbr title="App\Exports\PinPoint\ChartSimilarProductExport::title">title</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartSimilarProductExport.php.html#23"><abbr title="App\Exports\PinPoint\ChartSimilarProductExport::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartNotInterestReasonExport.php.html#136"><abbr title="App\Exports\PinPoint\ChartNotInterestReasonExport::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartNotInterestReasonExport.php.html#129"><abbr title="App\Exports\PinPoint\ChartNotInterestReasonExport::notInterestReasons">notInterestReasons</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartNotInterestReasonExport.php.html#93"><abbr title="App\Exports\PinPoint\ChartNotInterestReasonExport::charts">charts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartNotInterestReasonExport.php.html#34"><abbr title="App\Exports\PinPoint\ChartNotInterestReasonExport::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartSimilarProductExport.php.html#95"><abbr title="App\Exports\PinPoint\ChartSimilarProductExport::charts">charts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartNotInterestReasonExport.php.html#29"><abbr title="App\Exports\PinPoint\ChartNotInterestReasonExport::title">title</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartNotInterestReasonExport.php.html#23"><abbr title="App\Exports\PinPoint\ChartNotInterestReasonExport::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartInterestReasonExport.php.html#135"><abbr title="App\Exports\PinPoint\ChartInterestReasonExport::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartInterestReasonExport.php.html#129"><abbr title="App\Exports\PinPoint\ChartInterestReasonExport::interestReasons">interestReasons</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartInterestReasonExport.php.html#93"><abbr title="App\Exports\PinPoint\ChartInterestReasonExport::charts">charts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartInterestReasonExport.php.html#76"><abbr title="App\Exports\PinPoint\ChartInterestReasonExport::cellColumns">cellColumns</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartInterestReasonExport.php.html#34"><abbr title="App\Exports\PinPoint\ChartInterestReasonExport::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartSimilarProductExport.php.html#78"><abbr title="App\Exports\PinPoint\ChartSimilarProductExport::cellColumns">cellColumns</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartSimilarProductExport.php.html#131"><abbr title="App\Exports\PinPoint\ChartSimilarProductExport::similarProducts">similarProducts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotInterestReasonSheet.php.html#61"><abbr title="App\Exports\PinPoint\NotInterestReasonSheet::map">map</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ItemSoldSheet.php.html#50"><abbr title="App\Exports\PinPoint\ItemSoldSheet::headings">headings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotInterestReasonSheet.php.html#46"><abbr title="App\Exports\PinPoint\NotInterestReasonSheet::headings">headings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotInterestReasonSheet.php.html#33"><abbr title="App\Exports\PinPoint\NotInterestReasonSheet::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NotInterestReasonSheet.php.html#24"><abbr title="App\Exports\PinPoint\NotInterestReasonSheet::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ItemSoldSheet.php.html#103"><abbr title="App\Exports\PinPoint\ItemSoldSheet::registerEvents">registerEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ItemSoldSheet.php.html#95"><abbr title="App\Exports\PinPoint\ItemSoldSheet::title">title</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ItemSoldSheet.php.html#73"><abbr title="App\Exports\PinPoint\ItemSoldSheet::map">map</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ItemSoldSheet.php.html#33"><abbr title="App\Exports\PinPoint\ItemSoldSheet::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChartSimilarProductExport.php.html#137"><abbr title="App\Exports\PinPoint\ChartSimilarProductExport::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ItemSoldSheet.php.html#24"><abbr title="App\Exports\PinPoint\ItemSoldSheet::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InterestReasonSheet.php.html#83"><abbr title="App\Exports\PinPoint\InterestReasonSheet::registerEvents">registerEvents</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InterestReasonSheet.php.html#75"><abbr title="App\Exports\PinPoint\InterestReasonSheet::title">title</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InterestReasonSheet.php.html#61"><abbr title="App\Exports\PinPoint\InterestReasonSheet::map">map</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InterestReasonSheet.php.html#46"><abbr title="App\Exports\PinPoint\InterestReasonSheet::headings">headings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InterestReasonSheet.php.html#33"><abbr title="App\Exports\PinPoint\InterestReasonSheet::query">query</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InterestReasonSheet.php.html#24"><abbr title="App\Exports\PinPoint\InterestReasonSheet::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SimilarProductSheet.php.html#83"><abbr title="App\Exports\PinPoint\SimilarProductSheet::registerEvents">registerEvents</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Performance/PerformanceExport.php.html#25"><abbr title="App\Exports\PinPoint\Performance\PerformanceExport::sheets">sheets</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ChartInterestReasonExport.php.html#34"><abbr title="App\Exports\PinPoint\ChartInterestReasonExport::view">view</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ChartNotInterestReasonExport.php.html#34"><abbr title="App\Exports\PinPoint\ChartNotInterestReasonExport::view">view</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ChartSimilarProductExport.php.html#34"><abbr title="App\Exports\PinPoint\ChartSimilarProductExport::view">view</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="ItemSoldSheet.php.html#73"><abbr title="App\Exports\PinPoint\ItemSoldSheet::map">map</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="ChartInterestReasonExport.php.html#76"><abbr title="App\Exports\PinPoint\ChartInterestReasonExport::cellColumns">cellColumns</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ChartNotInterestReasonExport.php.html#76"><abbr title="App\Exports\PinPoint\ChartNotInterestReasonExport::cellColumns">cellColumns</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ChartSimilarProductExport.php.html#78"><abbr title="App\Exports\PinPoint\ChartSimilarProductExport::cellColumns">cellColumns</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Performance/DailySheet.php.html#121"><abbr title="App\Exports\PinPoint\Performance\DailySheet::view">view</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Performance/WeeklySheet.php.html#124"><abbr title="App\Exports\PinPoint\Performance\WeeklySheet::view">view</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ChartInterestReasonExport.php.html#93"><abbr title="App\Exports\PinPoint\ChartInterestReasonExport::charts">charts</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartNotInterestReasonExport.php.html#93"><abbr title="App\Exports\PinPoint\ChartNotInterestReasonExport::charts">charts</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChartSimilarProductExport.php.html#95"><abbr title="App\Exports\PinPoint\ChartSimilarProductExport::charts">charts</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 7.0.8</a> using <a href="https://secure.php.net/" target="_top">PHP 7.3.9-1+ubuntu18.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.7.2</a> and <a href="https://phpunit.de/">PHPUnit 8.4.3</a> at Thu Nov 14 13:04:52 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../_js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../_js/d3.min.js" type="text/javascript"></script>
+  <script src="../../_js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([12,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([75,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,14,"<a href=\"ChartInterestReasonExport.php.html#21\">App\\Exports\\PinPoint\\ChartInterestReasonExport<\/a>"],[0,14,"<a href=\"ChartNotInterestReasonExport.php.html#21\">App\\Exports\\PinPoint\\ChartNotInterestReasonExport<\/a>"],[0,14,"<a href=\"ChartSimilarProductExport.php.html#21\">App\\Exports\\PinPoint\\ChartSimilarProductExport<\/a>"],[0,6,"<a href=\"InterestReasonSheet.php.html#16\">App\\Exports\\PinPoint\\InterestReasonSheet<\/a>"],[0,9,"<a href=\"ItemSoldSheet.php.html#16\">App\\Exports\\PinPoint\\ItemSoldSheet<\/a>"],[0,6,"<a href=\"NotInterestReasonSheet.php.html#16\">App\\Exports\\PinPoint\\NotInterestReasonSheet<\/a>"],[0,12,"<a href=\"Performance\/DailySheet.php.html#20\">App\\Exports\\PinPoint\\Performance\\DailySheet<\/a>"],[0,7,"<a href=\"Performance\/PerformanceExport.php.html#8\">App\\Exports\\PinPoint\\Performance\\PerformanceExport<\/a>"],[0,12,"<a href=\"Performance\/WeeklySheet.php.html#21\">App\\Exports\\PinPoint\\Performance\\WeeklySheet<\/a>"],[0,2,"<a href=\"SalesVisitationFormExport.php.html#7\">App\\Exports\\PinPoint\\SalesVisitationFormExport<\/a>"],[0,6,"<a href=\"SalesVisitationFormSheet.php.html#15\">App\\Exports\\PinPoint\\SalesVisitationFormSheet<\/a>"],[0,6,"<a href=\"SimilarProductSheet.php.html#16\">App\\Exports\\PinPoint\\SimilarProductSheet<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"ChartInterestReasonExport.php.html#23\">App\\Exports\\PinPoint\\ChartInterestReasonExport::__construct<\/a>"],[0,1,"<a href=\"ChartInterestReasonExport.php.html#29\">App\\Exports\\PinPoint\\ChartInterestReasonExport::title<\/a>"],[0,5,"<a href=\"ChartInterestReasonExport.php.html#34\">App\\Exports\\PinPoint\\ChartInterestReasonExport::view<\/a>"],[0,3,"<a href=\"ChartInterestReasonExport.php.html#76\">App\\Exports\\PinPoint\\ChartInterestReasonExport::cellColumns<\/a>"],[0,2,"<a href=\"ChartInterestReasonExport.php.html#93\">App\\Exports\\PinPoint\\ChartInterestReasonExport::charts<\/a>"],[0,1,"<a href=\"ChartInterestReasonExport.php.html#129\">App\\Exports\\PinPoint\\ChartInterestReasonExport::interestReasons<\/a>"],[0,1,"<a href=\"ChartInterestReasonExport.php.html#135\">App\\Exports\\PinPoint\\ChartInterestReasonExport::query<\/a>"],[0,1,"<a href=\"ChartNotInterestReasonExport.php.html#23\">App\\Exports\\PinPoint\\ChartNotInterestReasonExport::__construct<\/a>"],[0,1,"<a href=\"ChartNotInterestReasonExport.php.html#29\">App\\Exports\\PinPoint\\ChartNotInterestReasonExport::title<\/a>"],[0,5,"<a href=\"ChartNotInterestReasonExport.php.html#34\">App\\Exports\\PinPoint\\ChartNotInterestReasonExport::view<\/a>"],[0,3,"<a href=\"ChartNotInterestReasonExport.php.html#76\">App\\Exports\\PinPoint\\ChartNotInterestReasonExport::cellColumns<\/a>"],[0,2,"<a href=\"ChartNotInterestReasonExport.php.html#93\">App\\Exports\\PinPoint\\ChartNotInterestReasonExport::charts<\/a>"],[0,1,"<a href=\"ChartNotInterestReasonExport.php.html#129\">App\\Exports\\PinPoint\\ChartNotInterestReasonExport::notInterestReasons<\/a>"],[0,1,"<a href=\"ChartNotInterestReasonExport.php.html#136\">App\\Exports\\PinPoint\\ChartNotInterestReasonExport::query<\/a>"],[0,1,"<a href=\"ChartSimilarProductExport.php.html#23\">App\\Exports\\PinPoint\\ChartSimilarProductExport::__construct<\/a>"],[0,1,"<a href=\"ChartSimilarProductExport.php.html#29\">App\\Exports\\PinPoint\\ChartSimilarProductExport::title<\/a>"],[0,5,"<a href=\"ChartSimilarProductExport.php.html#34\">App\\Exports\\PinPoint\\ChartSimilarProductExport::view<\/a>"],[0,3,"<a href=\"ChartSimilarProductExport.php.html#78\">App\\Exports\\PinPoint\\ChartSimilarProductExport::cellColumns<\/a>"],[0,2,"<a href=\"ChartSimilarProductExport.php.html#95\">App\\Exports\\PinPoint\\ChartSimilarProductExport::charts<\/a>"],[0,1,"<a href=\"ChartSimilarProductExport.php.html#131\">App\\Exports\\PinPoint\\ChartSimilarProductExport::similarProducts<\/a>"],[0,1,"<a href=\"ChartSimilarProductExport.php.html#137\">App\\Exports\\PinPoint\\ChartSimilarProductExport::query<\/a>"],[0,1,"<a href=\"InterestReasonSheet.php.html#24\">App\\Exports\\PinPoint\\InterestReasonSheet::__construct<\/a>"],[0,1,"<a href=\"InterestReasonSheet.php.html#33\">App\\Exports\\PinPoint\\InterestReasonSheet::query<\/a>"],[0,1,"<a href=\"InterestReasonSheet.php.html#46\">App\\Exports\\PinPoint\\InterestReasonSheet::headings<\/a>"],[0,1,"<a href=\"InterestReasonSheet.php.html#61\">App\\Exports\\PinPoint\\InterestReasonSheet::map<\/a>"],[0,1,"<a href=\"InterestReasonSheet.php.html#75\">App\\Exports\\PinPoint\\InterestReasonSheet::title<\/a>"],[0,1,"<a href=\"InterestReasonSheet.php.html#83\">App\\Exports\\PinPoint\\InterestReasonSheet::registerEvents<\/a>"],[0,1,"<a href=\"ItemSoldSheet.php.html#24\">App\\Exports\\PinPoint\\ItemSoldSheet::__construct<\/a>"],[0,1,"<a href=\"ItemSoldSheet.php.html#33\">App\\Exports\\PinPoint\\ItemSoldSheet::query<\/a>"],[0,1,"<a href=\"ItemSoldSheet.php.html#50\">App\\Exports\\PinPoint\\ItemSoldSheet::headings<\/a>"],[0,4,"<a href=\"ItemSoldSheet.php.html#73\">App\\Exports\\PinPoint\\ItemSoldSheet::map<\/a>"],[0,1,"<a href=\"ItemSoldSheet.php.html#95\">App\\Exports\\PinPoint\\ItemSoldSheet::title<\/a>"],[0,1,"<a href=\"ItemSoldSheet.php.html#103\">App\\Exports\\PinPoint\\ItemSoldSheet::registerEvents<\/a>"],[0,1,"<a href=\"NotInterestReasonSheet.php.html#24\">App\\Exports\\PinPoint\\NotInterestReasonSheet::__construct<\/a>"],[0,1,"<a href=\"NotInterestReasonSheet.php.html#33\">App\\Exports\\PinPoint\\NotInterestReasonSheet::query<\/a>"],[0,1,"<a href=\"NotInterestReasonSheet.php.html#46\">App\\Exports\\PinPoint\\NotInterestReasonSheet::headings<\/a>"],[0,1,"<a href=\"NotInterestReasonSheet.php.html#61\">App\\Exports\\PinPoint\\NotInterestReasonSheet::map<\/a>"],[0,1,"<a href=\"NotInterestReasonSheet.php.html#75\">App\\Exports\\PinPoint\\NotInterestReasonSheet::title<\/a>"],[0,1,"<a href=\"NotInterestReasonSheet.php.html#83\">App\\Exports\\PinPoint\\NotInterestReasonSheet::registerEvents<\/a>"],[0,1,"<a href=\"Performance\/DailySheet.php.html#29\">App\\Exports\\PinPoint\\Performance\\DailySheet::__construct<\/a>"],[0,1,"<a href=\"Performance\/DailySheet.php.html#39\">App\\Exports\\PinPoint\\Performance\\DailySheet::title<\/a>"],[0,1,"<a href=\"Performance\/DailySheet.php.html#44\">App\\Exports\\PinPoint\\Performance\\DailySheet::queryTarget<\/a>"],[0,1,"<a href=\"Performance\/DailySheet.php.html#64\">App\\Exports\\PinPoint\\Performance\\DailySheet::queryCall<\/a>"],[0,1,"<a href=\"Performance\/DailySheet.php.html#73\">App\\Exports\\PinPoint\\Performance\\DailySheet::queryEffectiveCall<\/a>"],[0,1,"<a href=\"Performance\/DailySheet.php.html#92\">App\\Exports\\PinPoint\\Performance\\DailySheet::queryValue<\/a>"],[0,1,"<a href=\"Performance\/DailySheet.php.html#102\">App\\Exports\\PinPoint\\Performance\\DailySheet::queryDetails<\/a>"],[0,3,"<a href=\"Performance\/DailySheet.php.html#121\">App\\Exports\\PinPoint\\Performance\\DailySheet::view<\/a>"],[0,1,"<a href=\"Performance\/DailySheet.php.html#182\">App\\Exports\\PinPoint\\Performance\\DailySheet::registerEvents<\/a>"],[0,1,"<a href=\"Performance\/DailySheet.php.html#207\">App\\Exports\\PinPoint\\Performance\\DailySheet::columnFormats<\/a>"],[0,1,"<a href=\"Performance\/PerformanceExport.php.html#16\">App\\Exports\\PinPoint\\Performance\\PerformanceExport::__construct<\/a>"],[0,6,"<a href=\"Performance\/PerformanceExport.php.html#25\">App\\Exports\\PinPoint\\Performance\\PerformanceExport::sheets<\/a>"],[0,1,"<a href=\"Performance\/WeeklySheet.php.html#31\">App\\Exports\\PinPoint\\Performance\\WeeklySheet::__construct<\/a>"],[0,1,"<a href=\"Performance\/WeeklySheet.php.html#42\">App\\Exports\\PinPoint\\Performance\\WeeklySheet::title<\/a>"],[0,1,"<a href=\"Performance\/WeeklySheet.php.html#47\">App\\Exports\\PinPoint\\Performance\\WeeklySheet::queryTarget<\/a>"],[0,1,"<a href=\"Performance\/WeeklySheet.php.html#67\">App\\Exports\\PinPoint\\Performance\\WeeklySheet::queryCall<\/a>"],[0,1,"<a href=\"Performance\/WeeklySheet.php.html#76\">App\\Exports\\PinPoint\\Performance\\WeeklySheet::queryEffectiveCall<\/a>"],[0,1,"<a href=\"Performance\/WeeklySheet.php.html#95\">App\\Exports\\PinPoint\\Performance\\WeeklySheet::queryValue<\/a>"],[0,1,"<a href=\"Performance\/WeeklySheet.php.html#105\">App\\Exports\\PinPoint\\Performance\\WeeklySheet::queryDetails<\/a>"],[0,3,"<a href=\"Performance\/WeeklySheet.php.html#124\">App\\Exports\\PinPoint\\Performance\\WeeklySheet::view<\/a>"],[0,1,"<a href=\"Performance\/WeeklySheet.php.html#186\">App\\Exports\\PinPoint\\Performance\\WeeklySheet::columnFormats<\/a>"],[0,1,"<a href=\"Performance\/WeeklySheet.php.html#204\">App\\Exports\\PinPoint\\Performance\\WeeklySheet::registerEvents<\/a>"],[0,1,"<a href=\"SalesVisitationFormExport.php.html#15\">App\\Exports\\PinPoint\\SalesVisitationFormExport::__construct<\/a>"],[0,1,"<a href=\"SalesVisitationFormExport.php.html#24\">App\\Exports\\PinPoint\\SalesVisitationFormExport::sheets<\/a>"],[0,1,"<a href=\"SalesVisitationFormSheet.php.html#23\">App\\Exports\\PinPoint\\SalesVisitationFormSheet::__construct<\/a>"],[0,1,"<a href=\"SalesVisitationFormSheet.php.html#32\">App\\Exports\\PinPoint\\SalesVisitationFormSheet::query<\/a>"],[0,1,"<a href=\"SalesVisitationFormSheet.php.html#43\">App\\Exports\\PinPoint\\SalesVisitationFormSheet::headings<\/a>"],[0,1,"<a href=\"SalesVisitationFormSheet.php.html#64\">App\\Exports\\PinPoint\\SalesVisitationFormSheet::map<\/a>"],[0,1,"<a href=\"SalesVisitationFormSheet.php.html#84\">App\\Exports\\PinPoint\\SalesVisitationFormSheet::title<\/a>"],[0,1,"<a href=\"SalesVisitationFormSheet.php.html#92\">App\\Exports\\PinPoint\\SalesVisitationFormSheet::registerEvents<\/a>"],[0,1,"<a href=\"SimilarProductSheet.php.html#24\">App\\Exports\\PinPoint\\SimilarProductSheet::__construct<\/a>"],[0,1,"<a href=\"SimilarProductSheet.php.html#33\">App\\Exports\\PinPoint\\SimilarProductSheet::query<\/a>"],[0,1,"<a href=\"SimilarProductSheet.php.html#46\">App\\Exports\\PinPoint\\SimilarProductSheet::headings<\/a>"],[0,1,"<a href=\"SimilarProductSheet.php.html#61\">App\\Exports\\PinPoint\\SimilarProductSheet::map<\/a>"],[0,1,"<a href=\"SimilarProductSheet.php.html#75\">App\\Exports\\PinPoint\\SimilarProductSheet::title<\/a>"],[0,1,"<a href=\"SimilarProductSheet.php.html#83\">App\\Exports\\PinPoint\\SimilarProductSheet::registerEvents<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
